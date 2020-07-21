@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(0deg, rgba(60, 60, 140, 0.7), rgba(60, 60, 140, 0.7)),url("http://wallpapercrafter.com/uploads/posts/50227-a-group-of-people-brainstorming-over-a-laptop-and-sheets-of-paper___teamwork-in-the-workplace.jpg");
+    background: linear-gradient(0deg, rgba(60, 60, 140, 0.7), rgba(0, 0, 0, 0.7)),url("http://wallpapercrafter.com/uploads/posts/50227-a-group-of-people-brainstorming-over-a-laptop-and-sheets-of-paper___teamwork-in-the-workplace.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
@@ -91,4 +91,17 @@ button{
 button:hover{
     cursor: pointer;
     background: rgb(36, 116, 67);
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+
+    #form-container{
+        position:relative;
+        max-width: 75%;
+        margin: auto;
+    }
+
 }
