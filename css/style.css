@@ -38,7 +38,7 @@ label{
     display: block;
     font-size: 24px;
     margin: 30px 0px 10px 0px;
-    
+
 }
 
 .radio-label{
@@ -94,25 +94,3 @@ button:hover{
     background: rgb(36, 116, 67);
 }
 
-/* @media only screen and (max-width: 992px){
-    body{
-       max-width: 100%;
-    }
-
-    #form-container{
-        position:relative;
-        max-width: 85%;
-        margin: auto;
-        
-    }
-    label{
-        font-size: 72px;
-        margin: 30px 0px 10px 0px;
-    }
-
-    .input1{
-        font-size: 60px;
-     
-    }
-
-} */
